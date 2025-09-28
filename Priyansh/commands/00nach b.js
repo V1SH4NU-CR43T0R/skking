@@ -3,7 +3,7 @@ module.exports.config = {
   name: "nach",
     version: "2.1.1",
   hasPermssion: 0,
-  credits: "PRINCE RAJPUT", 
+  credits: "VISHANU RAJ", 
   description: "Just Respond",
   commandCategory: "no prefix",
     cooldowns: 5, 
@@ -18,7 +18,7 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
      react.includes("nch") ||
 react.includes("nachh")) {
     var msg = {
-        body: `BASANTI NE NACHNA CHOD DIYA HAI AB🙈😒😒👈`,attachment: fs.createReadStream(__dirname + `/noprefix/nach.mp4`)
+        body: `JANU NE NACHNA CHOD DIYA HAI AB🙈😒😒👈`,attachment: fs.createReadStream(__dirname + `/noprefix/nach.mp4`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("💃", event.messageID, (err) => {}, true)
